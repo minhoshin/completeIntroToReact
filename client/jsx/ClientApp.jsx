@@ -21,8 +21,6 @@ class App extends React.Component {
     if (!show) {
       return replace('/')
     }
-    // console.log("nextState.params : ",nextState.params)
-    // console.log("show : ", show)
     Object.assign(nextState.params, show)
     return nextState
   }
